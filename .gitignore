@@ -1,0 +1,21 @@
+# Terragrunt cache
+**/.terragrunt-cache/
+
+# Terraform directories
+**/.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+**/.terraform.lock.hcl
+
+# Terraform plan files
+*.tfplan
+
+# Crash logs
+crash.log
+crash.*.log
+
+# macOS
+.DS_Store
