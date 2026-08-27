@@ -10,3 +10,4 @@ inputs = {
   name = "terragrunt-test"
   location = "westeurope"
 }
+

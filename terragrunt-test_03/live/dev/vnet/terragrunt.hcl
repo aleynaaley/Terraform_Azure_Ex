@@ -15,3 +15,4 @@ inputs = {
 	name = "vnet_test"
 	location = "westeurope"
 }
+
