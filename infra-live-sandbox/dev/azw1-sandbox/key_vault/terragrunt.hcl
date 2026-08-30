@@ -18,7 +18,7 @@ locals {
 
 // name = kv-ils-dev
 inputs = {
-    name = "kv-${local.app_config.locals.application_shortname}-${local.env_config.locals.environment_shortname}"
+    name = "kv-${local.app_config.locals.application_shortname}-${local.env_config.locals.environment_shortname}-00001"
     resource_group_name = dependency.resource_group.outputs.name
     location = local.location_config.locals.location_shortname
 }
