@@ -24,7 +24,7 @@ locals {
 inputs = {
     name = "${local.app_config.locals.application_shortname}-${local.env_config.locals.environment_shortname}"
     resource_group_name = dependency.resource_group.outputs.name
-    key_vault_name = dependency.key_vault.outputs.name
+    // key_vault_name = dependency.key_vault.outputs.name
     key_vault_id = dependency.key_vault.outputs.id
     location = local.location_config.locals.location_shortname
 
