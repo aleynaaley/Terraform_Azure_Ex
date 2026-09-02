@@ -17,7 +17,7 @@ variable "key_vault_id" {
 
 variable "vm_size" {
     type = string
-    default = "Standard_F1a_v7"
+    default = "Standard_F1as_v7"
 }
 
 variable "admin_username" {
